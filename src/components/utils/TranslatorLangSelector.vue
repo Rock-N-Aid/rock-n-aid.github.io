@@ -40,7 +40,7 @@ function langClicked(lang) {
 #languageSelector > span {
   margin: 0px 5px;
   padding: 8px 5px;
-  border-bottom: 2px solid var(--rna-text);
+  border-bottom: 2px solid var(--col-text);
 }
 
 #languageSelector > span:hover {

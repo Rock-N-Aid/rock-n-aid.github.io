@@ -1,10 +1,11 @@
 :root {
     --col-main: #000000;
     --col-main2: #272727;
-    --rna-accent: #bd0606;
-    --rna-accent-dark: #8b0000;
-    --rna-text: #d2d2d2;
-    --rna-text2: #ffffff;
-    --rna-text3: #bebebe;
+    --col-accent: #bd0606;
+    --col-accent-overlay: #bd0606CC;
+    --col-accent-dark: #8b0000;
+    --col-text: #d2d2d2;
+    --col-text2: #ffffff;
+    --col-text3: #bebebe;
 
   }
