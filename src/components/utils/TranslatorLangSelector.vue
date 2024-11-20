@@ -29,17 +29,22 @@ function langClicked(lang) {
               </div>
 </template>
 
+<style>
+
+@import '/css/colors.css';
+
+</style>
+
 <style scoped>
 
 #languageSelector > span {
   margin: 0px 5px;
-  padding: 10px;
-  border-bottom: 3px solid #505050;
+  padding: 5px;
+  border-bottom: 3px solid var(--rna-red);
 }
 
 #languageSelector > span:hover {
   margin: 0px 5px;
-  padding: 10px;
   border-bottom: 3px solid;
   border-color: #424242;
   cursor: pointer;
