@@ -28,3 +28,26 @@ function langClicked(lang) {
                   </span>                                        
               </div>
 </template>
+
+<style scoped>
+
+#languageSelector > span {
+  margin: 0px 5px;
+  padding: 10px;
+  border-bottom: 3px solid #505050;
+}
+
+#languageSelector > span:hover {
+  margin: 0px 5px;
+  padding: 10px;
+  border-bottom: 3px solid;
+  border-color: #424242;
+  cursor: pointer;
+}
+
+#languageSelector > span:hover > i {
+  filter: brightness(70%);
+
+}
+
+</style>
