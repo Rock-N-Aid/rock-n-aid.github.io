@@ -21,4 +21,35 @@ const router = createRouter({
   ]
 })
 
+router.afterEach((to, from) => {
+  console.log('Navigated to:', to.path);
+  // EventHandler.emit('routeChanged', { from: from.path, to: to.path });
+  function handleHash() {
+    let hash = window.location.hash;
+
+    // Check if the hash is not empty
+    if (hash && hash.substring(3) != "") {
+      // Remove the '#' character to get just the ID
+      let id = hash.substring(3);
+      console.log(id);
+      let elm = document.getElementById(id);
+      if (elm) {
+        elm.scrollIntoView();
+      }
+      
+    } else {
+      window.scrollTo(0, 0);
+    }
+
+    
+}
+  setTimeout(() => {
+    handleHash();
+  }, 30);
+  
+  
+
+  // router.app.config.globalProperties.$emitGlobalEvent({ from: from.path, to: to.path });
+});
+
 export default router

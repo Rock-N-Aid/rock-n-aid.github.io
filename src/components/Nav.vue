@@ -1,5 +1,6 @@
 <script setup>
     import TranslatorLangSelector from './utils/TranslatorLangSelector.vue';
+    import { RouterLink } from 'vue-router';
 </script>
 
 <template>
@@ -12,11 +13,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">NavBar</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#services">NavBar</RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#portfolio">Portfolio</RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#about">About</RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#team">Team</RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#contact">Contact</RouterLink></li>
                     </ul>
                 </div>
             </div>

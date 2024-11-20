@@ -39,13 +39,13 @@ function langClicked(lang) {
 
 #languageSelector > span {
   margin: 0px 5px;
-  padding: 5px;
-  border-bottom: 3px solid var(--rna-red);
+  padding: 8px 5px;
+  border-bottom: 2px solid var(--rna-text);
 }
 
 #languageSelector > span:hover {
   margin: 0px 5px;
-  border-bottom: 3px solid;
+  border-bottom: 2px solid;
   border-color: #424242;
   cursor: pointer;
 }
