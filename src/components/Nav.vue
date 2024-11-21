@@ -13,12 +13,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><RouterLink class="nav-link" to="#services">NavBar</RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#portfolio">Portfolio</RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#about">About</RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#team">Team</RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#contact">Contact</RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#services">SERVICES</RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#portfolio">BANDS</RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#about">ABOUT</RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#team">TEAM</RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#contact">CONTACT</RouterLink></li>
                     </ul>
+                    
                 </div>
             </div>
             <TranslatorLangSelector />

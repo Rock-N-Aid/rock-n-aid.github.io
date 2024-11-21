@@ -9,9 +9,9 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading"><Translate en = "Welcome To Our Studio!" pl = "Witajcie w naszym studiu!" /></div>
+                <div class="masthead-subheading"><Translate pl = "Witajcie w naszym studiu!" en = "Welcome To Our Studio!" /></div>
                 <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                <RouterLink class="nav-link" to="#services"><a class="btn btn-primary btn-xl text-uppercase"><Translate pl="ZACZYNAMY" en = "START" /></a></RouterLink>
             </div>
         </header>
         <!-- Services-->
@@ -53,8 +53,8 @@
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase"><Translate pl="ZESPOŁY" en="BANDS" /></h2>
+                    <h3 class="section-subheading text-muted"><Translate pl="Zespoły, które zagrają na naszym koncercie" en="Bands, that will play on our concert" /></h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -64,10 +64,10 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="/assets/img/portfolio/1.jpg" alt="..." />
+                                <img class="img-fluid" src="/assets/img/bands/template.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
+                                <div class="portfolio-caption-heading"><Translate pl="ZESPÓŁ 1" en=" BAND 1" /></div>
                                 <div class="portfolio-caption-subheading text-muted">Illustration</div>
                             </div>
                         </div>
@@ -79,10 +79,10 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="/assets/img/portfolio/2.jpg" alt="..." />
+                                <img class="img-fluid" src="/assets/img/bands/template.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
+                                <div class="portfolio-caption-heading"><Translate pl="ZESPÓŁ 2" en=" BAND 2" /></div>
                                 <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
                             </div>
                         </div>
@@ -94,10 +94,10 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="/assets/img/portfolio/3.jpg" alt="..." />
+                                <img class="img-fluid" src="/assets/img/bands/template.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
+                                <div class="portfolio-caption-heading"><Translate pl="ZESPÓŁ 3" en=" BAND 3" /></div>
                                 <div class="portfolio-caption-subheading text-muted">Identity</div>
                             </div>
                         </div>
@@ -109,10 +109,10 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="/assets/img/portfolio/4.jpg" alt="..." />
+                                <img class="img-fluid" src="/assets/img/bands/template.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
+                                <div class="portfolio-caption-heading"><Translate pl="ZESPÓŁ 4" en=" BAND 4" /></div>
                                 <div class="portfolio-caption-subheading text-muted">Branding</div>
                             </div>
                         </div>
@@ -124,10 +124,10 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="/assets/img/portfolio/5.jpg" alt="..." />
+                                <img class="img-fluid" src="/assets/img/bands/template.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
+                                <div class="portfolio-caption-heading"><Translate pl="ZESPÓŁ 5" en=" BAND 5" /></div>
                                 <div class="portfolio-caption-subheading text-muted">Website Design</div>
                             </div>
                         </div>
@@ -139,10 +139,10 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="/assets/img/portfolio/6.jpg" alt="..." />
+                                <img class="img-fluid" src="/assets/img/bands/template.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
+                                <div class="portfolio-caption-heading"><Translate pl="ZESPÓŁ 6" en=" BAND 6" /></div>
                                 <div class="portfolio-caption-subheading text-muted">Photography</div>
                             </div>
                         </div>
@@ -222,9 +222,9 @@
                 <div class="row">
                     <div class="col" style="flex: 2 1 20%;">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="/assets/img/team/1.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="/assets/img/team/template.jpg" alt="..." />
                             <h4>Ziomek 1</h4>
-                            <p class="text-muted">Lead Designer</p>
+                            <p class="text-muted"><Translate pl="ROLA" en="ROLE" /></p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -232,9 +232,9 @@
                     </div>
                     <div class="col" style="flex: 2 1 20%;">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="/assets/img/team/2.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="/assets/img/team/template.jpg" alt="..." />
                             <h4>Ziomek 2</h4>
-                            <p class="text-muted">Lead Marketer</p>
+                            <p class="text-muted"><Translate pl="ROLA" en="ROLE" /></p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -242,9 +242,9 @@
                     </div>
                     <div class="col" style="flex: 2 1 20%;">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="/assets/img/team/3.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="/assets/img/team/template.jpg" alt="..." />
                             <h4>Ziomek 3</h4>
-                            <p class="text-muted">Lead Developer</p>
+                            <p class="text-muted"><Translate pl="ROLA" en="ROLE" /></p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -252,9 +252,9 @@
                     </div>
                     <div class="col" style="flex: 2 1 20%;">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="/assets/img/team/3.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="/assets/img/team/template.jpg" alt="..." />
                             <h4>Ziomek 4</h4>
-                            <p class="text-muted">Lead Developer</p>
+                            <p class="text-muted"><Translate pl="ROLA" en="ROLE" /></p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -262,9 +262,9 @@
                     </div>
                     <div class="col" style="flex: 2 1 20%;">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="/assets/img/team/3.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="/assets/img/team/template.jpg" alt="..." />
                             <h4>Ziomek 5</h4>
-                            <p class="text-muted">Lead Developer</p>
+                            <p class="text-muted"><Translate pl="ROLA" en="ROLE" /></p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -281,16 +281,16 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/rocknaid/logotekst.png" style="height: 150px;" alt="..." aria-label="Rock N' Aid Logo" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/rocknaid/logotekst.png" style="height: 150px;" alt="..." aria-label="Rock N' Aid Logo" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/rocknaid/logotekst.png" style="height: 150px;" alt="..." aria-label="Rock N' Aid Logo" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/assets/img/rocknaid/logotekst.png" style="height: 150px;" alt="..." aria-label="Rock N' Aid Logo" /></a>
                     </div>
                 </div>
             </div>
@@ -300,7 +300,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase"><Translate pl="SKONTAKTUJ SIĘ Z NAMI" en="CONTACT US"/></h2>
-                    <h3 class="section-subheading text-muted"><Translate pl="Wypełnij formularz a odpowiemy tak szybko jak to tylko możliwe" en="Angielski tekst"/></h3>
+                    <h3 class="section-subheading text-muted" style="color: #bd0606 !important"><Translate pl="Wypełnij formularz a odpowiemy tak szybko jak to tylko możliwe" en="Angielski tekst"/></h3>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -309,7 +309,8 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <!-- <form id="contactForm" data-sb-form-api-token="API_TOKEN"> -->
+                <form id="contactForm">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -355,8 +356,17 @@
                     <!-- an error submitting the form-->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit"><Translate pl="WYŚLIJ WIADOMOŚĆ" en="SEND MESSAGE" /></button></div>
                 </form>
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase" style="margin-top: 70px"><Translate pl="LUB NAPISZ DO NAS" en="OR MESSAGE US"/></h2>
+
+                    <div style="margin-top: 30px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="margin-right: 15px; margin-top: -5px;" fill="white" class="bi bi-envelope-at-fill" viewBox="0 0 16 16"><path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/><path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/></svg>
+                        <a href="mailto:rocknaid@gmail.com" style="text-decoration: none; color: #bd0606; font-size: 20px;">rocknaid@gmail.com</a>
+                    </div>
+
+                </div>
             </div>
         </section>
         <!-- Footer-->
@@ -370,8 +380,8 @@
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                        <a class="link-dark text-decoration-none me-3" href="#!"><Translate pl="Opcja 1" en="Option 1"/></a>
+                        <a class="link-dark text-decoration-none" href="#!"><Translate pl="Opcja 2" en="Option 2"/></a>
                     </div>
                 </div>
             </div>
@@ -387,23 +397,23 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase"><Translate pl="ZESPÓŁ 1" en=" BAND 1" /></h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="/assets/img/portfolio/1.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="/assets/img/bands/template.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Threads
+                                            <strong><Translate pl="Gatunek:" en="Genre:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Illustration
+                                            <strong><Translate pl="Członkowie:" en="Members:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        <Translate pl="ZAMKNIJ" en="CLOSE" />
                                     </button>
                                 </div>
                             </div>
@@ -422,23 +432,23 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase"><Translate pl="ZESPÓŁ 2" en=" BAND 2" /></h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="/assets/img/portfolio/2.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="/assets/img/bands/template.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Explore
+                                            <strong><Translate pl="Gatunek:" en="Genre:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
+                                            <strong><Translate pl="Członkowie:" en="Members:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        <Translate pl="ZAMKNIJ" en="CLOSE" />
                                     </button>
                                 </div>
                             </div>
@@ -457,23 +467,23 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase"><Translate pl="ZESPÓŁ 3" en=" BAND 3" /></h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="/assets/img/portfolio/3.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="/assets/img/bands/template.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Finish
+                                            <strong><Translate pl="Gatunek:" en="Genre:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Identity
+                                            <strong><Translate pl="Członkowie:" en="Members:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        <Translate pl="ZAMKNIJ" en="CLOSE" />
                                     </button>
                                 </div>
                             </div>
@@ -492,23 +502,23 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase"><Translate pl="ZESPÓŁ 4" en=" BAND 4" /></h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="/assets/img/portfolio/4.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="/assets/img/bands/template.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Lines
+                                            <strong><Translate pl="Gatunek:" en="Genre:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Branding
+                                            <strong><Translate pl="Członkowie:" en="Members:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        <Translate pl="ZAMKNIJ" en="CLOSE" />
                                     </button>
                                 </div>
                             </div>
@@ -527,23 +537,23 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase"><Translate pl="ZESPÓŁ 5" en=" BAND 5" /></h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="/assets/img/portfolio/5.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="/assets/img/bands/template.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Southwest
+                                            <strong><Translate pl="Gatunek:" en="Genre:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Website Design
+                                            <strong><Translate pl="Członkowie:" en="Members:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        <Translate pl="ZAMKNIJ" en="CLOSE" />
                                     </button>
                                 </div>
                             </div>
@@ -562,23 +572,23 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase"><Translate pl="ZESPÓŁ 6" en=" BAND 6" /></h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="/assets/img/portfolio/6.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="/assets/img/bands/template.jpg" alt="..." />
                                     <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Client:</strong>
-                                            Window
+                                            <strong><Translate pl="Gatunek:" en="Genre:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                         <li>
-                                            <strong>Category:</strong>
-                                            Photography
+                                            <strong><Translate pl="Członkowie:" en="Members:" /></strong>
+                                            DO UZUPEŁNIENIA
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        <Translate pl="ZAMKNIJ" en="CLOSE" />
                                     </button>
                                 </div>
                             </div>
