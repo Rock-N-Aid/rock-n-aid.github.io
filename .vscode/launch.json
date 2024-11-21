@@ -19,7 +19,7 @@
             "ignoreFailures": true
           }
         ],
-        "preLaunchTask": "myShellCommand",
+        "preLaunchTask": "Run npm in CMD",
         "miDebuggerPath": "/usr/bin/gdb",
         "logging": {
           "engineLogging": true

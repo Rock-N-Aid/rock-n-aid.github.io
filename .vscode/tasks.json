@@ -1,12 +1,19 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-      {
-        "label": "myShellCommand",
-        "type": "shell",
-        "command": "npm run dev",
-        "problemMatcher": []
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run npm in CMD",
+      "type": "shell",
+      "command": "npm run dev",
+      "problemMatcher": [],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
       }
-    ]
-  }
+    }
+  ]
+}
+
   
