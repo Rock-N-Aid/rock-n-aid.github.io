@@ -10,14 +10,6 @@
                     <h2 class="section-heading text-uppercase"><Translate pl="SKONTAKTUJ SIĘ Z NAMI" en="CONTACT US"/></h2>
                     <h3 class="section-subheading text-muted" style="color: #bd0606 !important"><Translate pl="Wypełnij formularz a odpowiemy tak szybko jak to tylko możliwe" en="Complete the form and we will respond as soon as possible"/></h3>
                 </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <!-- <form id="contactForm" data-sb-form-api-token="API_TOKEN"> -->
                 <form id="contactForm">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">

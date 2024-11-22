@@ -15,7 +15,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="/assets/img/team/template.jpg" alt="..." />
                             <h4>Jan</h4>
-                            <p class="text-muted"><Translate pl="Menedżer Projektu, Finanse, Marketing" en="ROLE" /></p>
+                            <p class="text-muted"><Translate pl="Menedżer Projektu, Finanse, Marketing" en="Project Manager, Finance, Marketing" /></p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -25,7 +25,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="/assets/img/team/template.jpg" alt="..." />
                             <h4>Patryk</h4>
-                            <p class="text-muted"><Translate pl="Koordynator Projektu, Strona WWW, Komunikacja, Logistyka" en="ROLE" /></p>
+                            <p class="text-muted"><Translate pl="Koordynator Projektu, Strona WWW, Komunikacja, Logistyka" en="Project Coordinator, Website, Communication, Logistics" /></p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -35,7 +35,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="/assets/img/team/template.jpg" alt="..." />
                             <h4>Antoni</h4>
-                            <p class="text-muted"><Translate pl="Finanse, Komunikacja Zewnętrzna" en="ROLE" /></p>
+                            <p class="text-muted"><Translate pl="Finanse, Komunikacja Zewnętrzna" en="Finance, External Communication" /></p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -45,7 +45,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="/assets/img/team/template.jpg" alt="..." />
                             <h4>Alex</h4>
-                            <p class="text-muted"><Translate pl="Marketing, Komunikacja Zewnętrzna" en="ROLE" /></p>
+                            <p class="text-muted"><Translate pl="Marketing, Komunikacja Zewnętrzna" en="Marketing, External Communication" /></p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -55,7 +55,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="/assets/img/team/template.jpg" alt="..." />
                             <h4>Kamil</h4>
-                            <p class="text-muted"><Translate pl="Marketing, Strona WWW, Logistyka" en="ROLE" /></p>
+                            <p class="text-muted"><Translate pl="Marketing, Strona WWW, Logistyka" en="Marketing, Website, Logistics" /></p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>

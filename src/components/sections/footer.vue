@@ -1,3 +1,7 @@
+<script setup>
+    import Translate from '@/components/utils/Translate.vue';
+</script>
+
 <template>
 
     <footer class="footer py-4">
