@@ -20,10 +20,12 @@
                         <li class="nav-item"><RouterLink class="nav-link" to="#team"><Translate pl="ZAŁOŻYCIELE" en="FOUNDERS"/></RouterLink></li>
                         <li class="nav-item"><RouterLink class="nav-link" to="#contact"><Translate pl="KONTAKT" en="CONTACT"/></RouterLink></li>
                     </ul>
+                    <TranslatorLangSelector />
                     
                 </div>
+                
             </div>
-            <TranslatorLangSelector />
+            
         </nav>
 </template>
 
