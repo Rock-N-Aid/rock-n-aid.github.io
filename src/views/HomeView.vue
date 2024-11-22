@@ -9,8 +9,8 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading"><Translate pl = "Witajcie w naszym studiu!" en = "Welcome To Our Studio!" /></div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                <div class="masthead-subheading"><Translate pl = "OFICJALNA STRONA PROJEKTU" en = "OFFICIAL SITE OF PROJECT" /></div>
+                <div class="masthead-heading text-uppercase"><Translate pl="ROCK N' AID UNDERGROUND" en="ROCK N' AID UNDERGROUND" /></div>
                 <RouterLink class="nav-link" to="#services"><a class="btn btn-primary btn-xl text-uppercase"><Translate pl="ZACZYNAMY" en = "START" /></a></RouterLink>
             </div>
         </header>
@@ -18,8 +18,8 @@
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase"><Translate pl="ZAŁOŻENIA PROJEKTU" en=""/></h2>
+                    <h3 class="section-subheading text-muted"><Translate pl="Założenia jakimi kierujemy się tworząc ten projekt" en=""?/></h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
@@ -27,7 +27,7 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">E-Commerce</h4>
+                        <h4 class="my-3"><Translate pl="ZAŁOŻENIE 1" en="" /></h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                     <div class="col-md-4">
@@ -35,7 +35,7 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Responsive Design</h4>
+                        <h4 class="my-3"><Translate pl="ZAŁOŻENIE 2" en="" /></h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                     <div class="col-md-4">
@@ -43,7 +43,7 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Web Security</h4>
+                        <h4 class="my-3"><Translate pl="ZAŁOŻENIE 3" en="" /></h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase"><Translate pl="NASZ ZESPÓŁ" en="OUR TEAM"/></h2>
-                    <h3 class="section-subheading text-muted"><Translate pl="Opis" en="Description"/></h3>
+                    <h3 class="section-subheading text-muted"><Translate pl="ODPOWIEDZIALNI ZA REALIZACJĘ PROJEKTU" en="Description"/></h3>
                 </div>
                 <div class="row">
                     <div class="col" style="flex: 2 1 20%;">
@@ -300,7 +300,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase"><Translate pl="SKONTAKTUJ SIĘ Z NAMI" en="CONTACT US"/></h2>
-                    <h3 class="section-subheading text-muted" style="color: #bd0606 !important"><Translate pl="Wypełnij formularz a odpowiemy tak szybko jak to tylko możliwe" en="Angielski tekst"/></h3>
+                    <h3 class="section-subheading text-muted" style="color: #bd0606 !important"><Translate pl="Wypełnij formularz a odpowiemy tak szybko jak to tylko możliwe" en="Complete the form and we will respond as soon as possible"/></h3>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -362,8 +362,8 @@
                     <h2 class="section-heading text-uppercase" style="margin-top: 70px"><Translate pl="LUB NAPISZ DO NAS" en="OR MESSAGE US"/></h2>
 
                     <div style="margin-top: 30px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="margin-right: 15px; margin-top: -5px;" fill="white" class="bi bi-envelope-at-fill" viewBox="0 0 16 16"><path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/><path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/></svg>
-                        <a href="mailto:rocknaid@gmail.com" style="text-decoration: none; color: #bd0606; font-size: 20px;">rocknaid@gmail.com</a>
+                        <a href="mailto:rocknaidunderground@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="margin-right: 15px; margin-top: -5px;" fill="white" class="bi bi-envelope-at-fill" viewBox="0 0 16 16"><path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/><path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/></svg></a>
+                        <a href="mailto:rocknaidunderground@gmail.com" style="text-decoration: none; color: #bd0606; font-size: 20px;">rocknaidunderground@gmail.com</a>
                     </div>
 
                 </div>

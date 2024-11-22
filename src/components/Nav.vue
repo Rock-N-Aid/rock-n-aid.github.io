@@ -1,4 +1,5 @@
 <script setup>
+    import Translate from '@/components/utils/Translate.vue';
     import TranslatorLangSelector from './utils/TranslatorLangSelector.vue';
     import { RouterLink } from 'vue-router';
 </script>
@@ -13,11 +14,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><RouterLink class="nav-link" to="#services">SERVICES</RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#portfolio">BANDS</RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#about">ABOUT</RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#team">TEAM</RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#contact">CONTACT</RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#services"><Translate pl="CELE" en="?"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#portfolio"><Translate pl="ZESPOŁY" en="BANDS"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#about"><Translate pl="O NAS" en="ABOUT"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#team"><Translate pl="?" en="TEAM"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="#contact"><Translate pl="KONTAKT" en="CONTACT"/></RouterLink></li>
                     </ul>
                     
                 </div>
