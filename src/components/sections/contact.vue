@@ -1,5 +1,6 @@
 <script setup>
     import Translate from '@/components/utils/Translate.vue';
+    import PHPForm from '@/components/utils/PHPForm.vue';
 </script>
 
 <template>
@@ -9,31 +10,44 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase"><Translate pl="SKONTAKTUJ SIĘ Z NAMI" en="CONTACT US"/></h2>
                     <h3 class="section-subheading text-muted" style="color: #bd0606 !important"><Translate pl="Wypełnij formularz a odpowiemy tak szybko jak to tylko możliwe" en="Complete the form and we will respond as soon as possible"/></h3>
+                    
+                    <span v-if = "sentSuccess">
+                        <div class="alert alert-dismissible alert-secondary">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" @click.prevent="sentSuccess = false"></button>
+                        <strong><Translate en = "Sent!" pl = "Wysłano!" /></strong> <Translate en = "We recieved your email. We'll contact you as soon as possible!" pl = "Otrzymaliśmy twój email. Odpowiemy na niego tak szybko, jak to możliwe!" />
+                        </div>
+                    </span>
+                    <span v-if = "sentError">
+                        <div class="alert alert-dismissible alert-danger">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" @click.prevent="sentSuccess = false"></button>
+                        <strong><Translate en = "Error!" pl = "Błąd!" /></strong> <Translate en = "An unknown error occurred. Please try again later." pl = "Wystąpił nieoczekiwany błąd. Sprobowaj ponownie później." />
+                        </div>
+                    </span>
                 </div>
-                <form id="contactForm">
+                <PHPForm id="contactForm" :model = "form" @sent = "sent" @formResponse="response" action = "https://marshallsofvictory.com/assets/php/hosting/rnaContact.php">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" v-model = "form.name" required/>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <div class="form-group">
                                 <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" v-model = "form.mail" required/>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <input class="form-control" id="phone" type="number" placeholder="Your Phone *" data-sb-validations="required" v-model = "form.phone" required/>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required" v-model = "form.message" required></textarea>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
                         </div>
@@ -56,8 +70,14 @@
                     <!-- an error submitting the form-->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit"><Translate pl="WYŚLIJ WIADOMOŚĆ" en="SEND MESSAGE" /></button></div>
-                </form>
+                    <span v-if = "sending">
+                        <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit"><Translate pl="WYSYŁANIE..." en="SENDING..." /></button></div>
+                    </span>
+                    <span v-else>
+                        <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit"><Translate pl="WYŚLIJ WIADOMOŚĆ" en="SEND MESSAGE" /></button></div>
+                    </span>
+                    
+                </PHPForm>
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase" style="margin-top: 70px"><Translate pl="LUB NAPISZ DO NAS" en="OR MESSAGE US"/></h2>
 
@@ -71,3 +91,35 @@
         </section>
 
 </template>
+
+
+
+<script>
+    export default {
+        data() {
+            return {
+                form: {},
+                sentSuccess: false,
+                sentError: false,
+                sending: false
+            }
+
+        },
+        methods: {
+            sent() {
+                this.sending = true;
+                this.sentSuccess = false;
+                this.sentError = false;
+            },
+            response(e) {
+                this.sending = false;
+                console.log(JSON.stringify(e));
+                if (e.success) {
+                    this.sentSuccess = true;
+                } else {
+                    this.sentError = true;
+                }
+            }
+        }
+    }
+</script>
