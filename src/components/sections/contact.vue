@@ -16,25 +16,25 @@
                             <div class="form-group">
                                 <!-- Name input-->
                                 <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="name:required"><Translate pl="Imię jest wymagane" en="A name is required." /></div>
                             </div>
                             <div class="form-group">
                                 <!-- Email address input-->
                                 <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:required"><Translate pl="" en="An email is required." /></div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email"><Translate pl="" en="Email is not valid." /></div>
                             </div>
                             <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
                                 <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required"><Translate pl="" en="A phone number is required." /></div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <!-- Message input-->
                                 <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="message:required"><Translate pl="" en="A message is required." /></div>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,8 @@
                     <!---->
                     <!-- This is what your users will see when there is-->
                     <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3"><Translate pl="" en="Error sending message!" /></div></div>
+                    
                     <!-- Submit Button-->
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit"><Translate pl="WYŚLIJ WIADOMOŚĆ" en="SEND MESSAGE" /></button></div>
                 </form>
