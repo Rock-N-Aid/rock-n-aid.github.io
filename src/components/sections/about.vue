@@ -2,7 +2,7 @@
     import Translate from '@/components/utils/Translate.vue';
 </script>
 
-<template>
+<!-- <template>
 
     <section class="page-section" id="about">
         <div class="container">
@@ -66,4 +66,4 @@
         </div>
     </section>
 
-</template>
+</template> -->
