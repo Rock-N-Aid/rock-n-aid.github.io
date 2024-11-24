@@ -5,7 +5,9 @@
 <template>
 
     <header class="masthead">
+        
         <div class="container">
+            <span class = "mastheadBackgroundImage"></span>
             <div class="masthead-subheading"><Translate pl = "OFICJALNA STRONA PROJEKTU" en = "OFFICIAL SITE OF PROJECT" /></div>
             <div class="masthead-heading text-uppercase"><Translate pl="ROCK N' AID UNDERGROUND" en="ROCK N' AID UNDERGROUND" /></div>
             <div class="d-flex justify-content-center align-items-center gap-4 mb-5">

@@ -49,7 +49,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"><Translate pl="W szablonie tu był jakiś opis ale w sumie nie ma co tu napisać" en="Description"/></p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">
+                        <!-- <Translate pl="W szablonie tu był jakiś opis ale w sumie nie ma co tu napisać" en="Description"/> -->
+                    </p></div>
                 </div>
             </div>
         </section>
