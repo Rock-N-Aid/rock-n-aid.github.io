@@ -1,6 +1,7 @@
 <script setup>
     import Translate from '@/components/utils/Translate.vue';
     import PHPForm from '@/components/utils/PHPForm.vue';
+    import TranslatedInput from '@/components/utils/TranslatedInput.vue';
 </script>
 
 <template>
@@ -29,25 +30,35 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" v-model = "form.name" required/>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                <TranslatedInput pl="Imię i Nazwisko *" en="Your Name *">
+                                    <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" v-model = "form.name" required/>
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                </TranslatedInput>
                             </div>
                             <div class="form-group">
                                 <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" v-model = "form.mail" required/>
+                                <TranslatedInput pl="Twój Email *" en="Your Email *">
+                                <input class="form-control" id="email" type="email" v-model="form.mail" required/>
+                                </TranslatedInput>
+                                    <!-- <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" v-model = "form.mail" required/> -->
+                                
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
+                                <TranslatedInput pl="Numer Telefonu *" en="Your Phone *">
                                 <input class="form-control" id="phone" type="number" placeholder="Your Phone *" data-sb-validations="required" v-model = "form.phone" required/>
+                                </TranslatedInput>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required" v-model = "form.message" required></textarea>
+                                <TranslatedInput pl="Wiadomość *" en="Your Message *">
+                                    <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required" v-model = "form.message" required></textarea>
+                                </TranslatedInput>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
                         </div>
