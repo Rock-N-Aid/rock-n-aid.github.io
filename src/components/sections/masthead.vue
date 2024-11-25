@@ -9,7 +9,10 @@
         <div class="container">
             <span class = "mastheadBackgroundImage"></span>
             <div class="masthead-subheading"><Translate pl = "OFICJALNA STRONA PROJEKTU" en = "OFFICIAL SITE OF PROJECT" /></div>
-            <div class="masthead-heading text-uppercase"><Translate pl="ROCK N' AID UNDERGROUND" en="ROCK N' AID UNDERGROUND" /></div>
+            <h1 style="font-size: 4.5vw;">
+                <Translate pl="ROCK N' AID UNDERGROUND" en="ROCK N' AID UNDERGROUND" />
+            </h1>
+            
             <div class="d-flex justify-content-center align-items-center gap-4 mb-5">
                 <div class="text-center">
                     <span class="fs-1 fw-bold">{{ countdown.days }}</span>
@@ -30,7 +33,8 @@
             </div>
 
             <div class="btn-group mb-4"> 
-                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa-solid fa-calendar me-2 fa-lg"></i> 
                     <Translate pl="DODAJ DO KALENDARZA" en="ADD TO CALENDAR" />
                 </button>
             
@@ -54,8 +58,6 @@
                     <Translate pl="Uniwersalnie (.ics)" en="Universally (.ics)" /></a>
                 </div>
             </div>
-            <p>↑↑↑</p>
-            <p> to jest work in progress jak coś (funkcjonalnie i wizualnie)</p>
             <RouterLink class="nav-link" to="#services"><a class="btn btn-primary btn-xl text-uppercase mt-4"><Translate pl="ZACZYNAMY" en = "START" /></a></RouterLink>
         </div>
     </header>
