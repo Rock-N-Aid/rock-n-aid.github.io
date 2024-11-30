@@ -8,15 +8,9 @@
         
         <div class="container">
             <span class = "mastheadBackgroundImage"></span>
-<<<<<<< HEAD
-            <div class="masthead-subheading"><Translate pl = "OFICJALNA STRONA PROJEKTU" en = "OFFICIAL SITE OF PROJECT" /></div>
-            <h1 style="font-size: 4.5vw;">
-                <Translate pl="ROCK N' AID UNDERGROUND" en="ROCK N' AID UNDERGROUND" />
-=======
             <div class="masthead-subheading"><Translate pl = "OFICJALNA STRONA KONCERTU" en = "OFFICIAL EVENT SITE" /></div>
             <h1 style="font-size: 4.5vw;">
                 ROCK N' AID UNDERGROUND
->>>>>>> VueProject
             </h1>
             
             <div class="d-flex justify-content-center align-items-center gap-4 mb-5">
