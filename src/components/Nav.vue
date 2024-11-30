@@ -14,11 +14,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><RouterLink class="nav-link" to="#services"><Translate pl="CELE" en="GOALS"/></RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#portfolio"><Translate pl="ZESPOŁY" en="BANDS"/></RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#about"><Translate pl="O PROJEKCIE" en="ABOUT"/></RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#team"><Translate pl="ZAŁOŻYCIELE" en="FOUNDERS"/></RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="#contact"><Translate pl="KONTAKT" en="CONTACT"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="/#services"><Translate pl="CELE" en="GOALS"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="/#portfolio"><Translate pl="ZESPOŁY" en="BANDS"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="/#about"><Translate pl="O PROJEKCIE" en="ABOUT"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="/#team"><Translate pl="ZAŁOŻYCIELE" en="FOUNDERS"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="/#contact"><Translate pl="KONTAKT" en="CONTACT"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="/socials">SOCIAL MEDIA</RouterLink></li>
                     </ul>
                     <TranslatorLangSelector />
                     
