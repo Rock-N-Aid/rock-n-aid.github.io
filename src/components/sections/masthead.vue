@@ -8,9 +8,9 @@
         
         <div class="container">
             <span class = "mastheadBackgroundImage"></span>
-            <div class="masthead-subheading"><Translate pl = "OFICJALNA STRONA PROJEKTU" en = "OFFICIAL SITE OF PROJECT" /></div>
+            <div class="masthead-subheading"><Translate pl = "OFICJALNA STRONA KONCERTU" en = "OFFICIAL EVENT SITE" /></div>
             <h1 style="font-size: 4.5vw;">
-                <Translate pl="ROCK N' AID UNDERGROUND" en="ROCK N' AID UNDERGROUND" />
+                ROCK N' AID UNDERGROUND
             </h1>
             
             <div class="d-flex justify-content-center align-items-center gap-4 mb-5">
@@ -35,7 +35,8 @@
             <div class="btn-group mb-4"> 
                 <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa-solid fa-calendar me-2 fa-lg"></i> 
-                    <Translate pl="DODAJ DO KALENDARZA" en="ADD TO CALENDAR" />
+                    <span style = "font-size: 80%;"><Translate pl="DODAJ DO KALENDARZA" en="ADD TO CALENDAR" /></span>
+                    
                 </button>
             
                 <div class="dropdown-menu w-100">
