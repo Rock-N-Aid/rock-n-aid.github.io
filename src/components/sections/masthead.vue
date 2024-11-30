@@ -9,9 +9,7 @@
         <div class="container">
             <span class = "mastheadBackgroundImage"></span>
             <div class="masthead-subheading"><Translate pl = "OFICJALNA STRONA KONCERTU" en = "OFFICIAL EVENT SITE" /></div>
-            <h1 style="font-size: 4.5vw;">
-                ROCK N' AID UNDERGROUND
-            </h1>
+            <h1 style="font-size: 4.5vw;">ROCK N' AID UNDERGROUND</h1>
             
             <div class="d-flex justify-content-center align-items-center gap-4 mb-5">
                 <div class="text-center">
