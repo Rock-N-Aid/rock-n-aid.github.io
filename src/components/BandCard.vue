@@ -111,6 +111,15 @@ div.modal-content {
 
 }
 
+@media (min-width: 1200px) {
+    div.modal-content {
+        padding: 20px !important;
+        width: 90%;
+        margin: auto;
+
+    }
+}
+
 /* div.modal-content > .container {
     margin: 0 !important;
 } */

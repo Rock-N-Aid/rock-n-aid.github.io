@@ -13,7 +13,7 @@
             </div>
             <div class="row">
 
-                <BandCard name = "Marshalls of Victory" image = "https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/441169124_122114091620291832_3714412926982809132_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=d2uTjMQU2UQQ7kNvgH3f-Bx&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=AbvvZ5NdLSp8JJYItDBEFQY&oh=00_AYDIiUf61tKXzIrwHWONhJpWEvJ_0y7IeRSwNG_yLGhxCw&oe=674947A2" genre = "Hard Rock" members = "Patryk Sławiński, Jan Krawczyk, Antoni Otwinowski, Alex Nemertsalov" socials = "https://marshallsofvictory.com/#/links/">
+                <BandCard name = "Marshalls of Victory" image = "/assets/img/bands/band1.jpg" genre = "Hard Rock" members = "Patryk Sławiński, Jan Krawczyk, Antoni Otwinowski, Alex Nemertsalov" socials = "https://marshallsofvictory.com/#/links/">
                     <template #shortDesc>
                         <Translate pl="Organizator" en="Event Organizer" />
                     </template>
