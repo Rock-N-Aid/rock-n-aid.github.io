@@ -6,10 +6,10 @@
 
     <header class="masthead">
         <span id = "backIMG"></span>
-        <div class="container">
-            <!-- <h1 style="font-size: 2.5vw;">
+        <div class="container d-flex flex-column justify-content-center align-items-center text-center">
+            <h1 style="font-size: 2.5vw;" class="p-5">
                 <Translate pl = "ROCK N' AID - Linki" en = "ROCK N' AID - Links" />
-            </h1> -->
+            </h1>
             <!-- <h1 style="font-size: 4.5vw;">
                 
             </h1> -->
