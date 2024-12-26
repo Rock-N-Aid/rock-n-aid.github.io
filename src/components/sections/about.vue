@@ -76,15 +76,17 @@
     </div>
     <p class="lead mb-4">
       <strong>Rock N' Aid Underground Kraków</strong>
-    <Translate
-      pl=" to wyjątkowe wydarzenie muzyczne organizowane przez zespół 
-      <em>Marshalls of Victory</em>. Celem koncertu jest nie tylko promocja muzyki rockowej w jej różnorodnych podgatunkach, 
-      ale przede wszystkim zebranie funduszy na pomoc charytatywną. Podczas koncertu wystąpi kilka zespołów, 
-      każdy reprezentujący inny styl muzyki rockowej – od klasycznego rocka, przez hard rock, aż po alternatywę." 
-      
+    <Translate  
       en=" is a unique music event organized by the band Marshalls of Victory. The concert aims not only to promote rock music in its diverse subgenres but also, and most importantly, to raise funds for charitable causes. Several bands will perform during the event, each representing a different style of rock music—ranging from classic rock and hard rock to alternative." 
       
-    />
+    >
+      <template #pl>
+        to wyjątkowe wydarzenie muzyczne organizowane przez zespół 
+      <em>Marshalls of Victory</em>. Celem koncertu jest nie tylko promocja muzyki rockowej w jej różnorodnych podgatunkach, 
+      ale przede wszystkim zebranie funduszy na pomoc charytatywną. Podczas koncertu wystąpi kilka zespołów, 
+      każdy reprezentujący inny styl muzyki rockowej – od klasycznego rocka, przez hard rock, aż po alternatywę.
+      </template>
+  </Translate>
     </p>
     <p class="mb-4 p-3">
       <Translate
@@ -100,7 +102,7 @@
         <div class="col-12 col-md-4">
           <div class="card border border-dark">
             <div class="card-body p-5">
-              <h3 class="display-5 fw-bold text-primary text-center mb-2">13.03.2025</h3>
+              <h3 class="display-5 fw-bold text-primary text-center mb-2">15.03.2025</h3>
               <p class="fw-bold text-center m-0"><Translate pl="DATA" en="DATE" /></p>
             </div>
           </div>
@@ -108,7 +110,7 @@
         <div class="col-12 col-md-4">
           <div class="card border border-dark">
             <div class="card-body p-5">
-              <h3 class="display-5 fw-bold text-primary text-center mb-2">10</h3>
+              <h3 class="display-5 fw-bold text-primary text-center mb-2">5</h3>
               <p class="fw-bold text-center m-0"><Translate pl="ZESPOŁÓW" en="BANDS" /></p>
             </div>
           </div>

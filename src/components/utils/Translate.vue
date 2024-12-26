@@ -9,6 +9,8 @@ const store = getStore()
 
 <template>     
   {{ store.lang == 0 ? en : pl }}
+  <slot name = "en" v-if = "store.lang == 0"></slot>
+  <slot name = "pl" v-else></slot>
 </template>
 <script>
 export default {

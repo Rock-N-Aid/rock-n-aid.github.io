@@ -36,7 +36,7 @@ import { getAI } from '@/assets/js/store';
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">{{ name }}</h2>
+                                    <h2 class="text-uppercase text-size-adjusted-name">{{ name }}</h2>
                                     <p class="item-intro text-muted"><slot name = "shortDesc"></slot></p>
                                     <img class="img-fluid d-block mx-auto" :src="image" alt="..." />
                                     <p><slot name = "longDesc"></slot></p>
@@ -53,7 +53,7 @@ import { getAI } from '@/assets/js/store';
                                             {{ members }}
                                         </li>
                                     </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <button class="btn btn-primary btn-xl text-uppercase text-size-adjusted" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         <Translate pl="ZAMKNIJ" en="CLOSE" />
                                     </button>
@@ -103,6 +103,29 @@ export default {
 </script>
 
 <style scoped>
+
+.text-size-adjusted-name{
+    font-size: 200% !important;
+}
+.text-size-adjusted {
+    font-size: 90% !important;
+}
+li {
+    font-size: 100% !important;
+}
+@media (max-width: 1024px) {
+    .text-size-adjusted-name{
+        font-size: 130% !important;
+    }
+    .text-size-adjusted {
+        font-size: 75% !important;
+    }
+
+    li {
+        font-size: 80% !important;
+    }
+}
+
 
 div.modal-content {
     padding: 20px !important;

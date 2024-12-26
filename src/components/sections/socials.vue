@@ -1,35 +1,43 @@
 <script setup>
     import Translate from '@/components/utils/Translate.vue';
+    import Links from '../utils/links.vue';
 </script>
 
 <template>
 
     <header class="masthead">
         <span id = "backIMG"></span>
-        <div class="container d-flex flex-column justify-content-center align-items-center text-center">
-            <h1 style="font-size: 2.5vw;" class="p-5">
+        <div class="container d-flex flex-column justify-content-center align-items-center text-center hcon">
+            <h1 style="font-size: 2.3vw;" class="p-5">
                 <Translate pl = "ROCK N' AID - Linki" en = "ROCK N' AID - Links" />
             </h1>
             <!-- <h1 style="font-size: 4.5vw;">
                 
             </h1> -->
+
+                <div class="col-12 col-md-4">
+                    <div class="card border border-dark linkcard">
+                        <div class="card-body p-5">
+                            <Links />
+                        </div>
+                    </div>
+                </div>
             
             <div id = "linkList">
-                <!-- Facebook -->
-                <br>
+
+                <!-- <br>
                 <a data-mdb-ripple-init class="btn btn-primary linkItem fb" href="#!" role="button"
                 ><i class="fab fa-facebook-f"></i
                 ></a>
 
-                <!-- Instagram -->
                 <a data-mdb-ripple-init class="btn btn-primary linkItem in" href="#!" role="button"
                 ><i class="fab fa-instagram"></i
                 ></a>
 
-                <!-- Youtube -->
+
                 <a data-mdb-ripple-init class="btn btn-primary linkItem yt" href="#!" role="button"
                 ><i class="fab fa-youtube"></i
-                ></a>
+                ></a> -->
             </div>
 
 
@@ -52,6 +60,26 @@
 </script>
 
 <style scoped>
+
+    .linkcard{
+        filter:opacity(0.8);
+        box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.521);
+    }
+
+    .hcon {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 100px;
+        max-width: 50%;
+        box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.521);
+        background-color: rgba(255, 255, 255, 0.062);
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+
     header.masthead {
         background-image: none;
     }
