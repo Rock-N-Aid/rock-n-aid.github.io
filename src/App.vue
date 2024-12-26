@@ -17,7 +17,7 @@ export default {
     if (hash && hash.substring(2) != "") {
       // Remove the '#' character to get just the ID
       let id = hash.substring(2);
-      window.location = window.location.toString().replace(hash, "");
+      // window.location = window.location.toString().replace(hash, "");
       
     }
   }
