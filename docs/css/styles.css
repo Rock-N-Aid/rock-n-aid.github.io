@@ -649,6 +649,11 @@ progress {
     max-width: 540px;
   }
 }
+@media (min-width: 1280px) {
+  .container2 {
+    max-width: 720px !important;
+  }
+}
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
@@ -10914,7 +10919,8 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: var(--col-nav);
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -10928,7 +10934,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: var(--col-main2);
+    background-color: var(--col-nav);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
