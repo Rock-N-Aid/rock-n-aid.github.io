@@ -1,6 +1,7 @@
 :root {
     --col-main: #000000;
-    --col-main2: #272727;
+    --col-main2: #383838;
+    --col-nav: #303030;
     --col-accent: #bd0606;
     
     --col-accent-overlay: #bd0606CC;

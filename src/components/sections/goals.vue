@@ -17,7 +17,7 @@
                             <i class="fas fa-handshake fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3"><Translate pl="POMOC" en="HELP" /></h4>
-                        <p class="text-muted"><Translate pl="Celem Rock N' Aid Underground jest wsparcie charytatywne, poprzez organizację koncertu, którego zyski zostaną przeznaczone na pomoc [ORGANIZACJA DO WYBRANIA]" en="" /></p>
+                        <p class="text-muted"><Translate pl="Celem Rock N' Aid Underground jest wsparcie charytatywne, poprzez organizację koncertu, którego zyski zostaną przeznaczone na pomoc fundacji na rzecz dzieci osieroconych/zagrożonych utratą opieki rodzicielskiej." en = "The purpose of Rock N' Aid Underground is to support charity through the organization of the concert, the proceeds of which will be donated to a foundation for orphaned children." /></p>
                     </div>
                     
                     <div class="col-md-4">

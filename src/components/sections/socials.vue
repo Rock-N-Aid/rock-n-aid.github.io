@@ -15,15 +15,15 @@
                 
             </h1> -->
 
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4" style = "min-width: 30vw">
                     <div class="card border border-dark linkcard">
                         <div class="card-body p-5">
                             <Links />
                         </div>
                     </div>
                 </div>
-            
-            <div id = "linkList">
+                <!-- var(--col-main2); -->
+            <div id = "linkList"> 
 
                 <!-- <br>
                 <a data-mdb-ripple-init class="btn btn-primary linkItem fb" href="#!" role="button"
@@ -77,7 +77,7 @@
 
     .box{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     header.masthead {
