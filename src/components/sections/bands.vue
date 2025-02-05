@@ -15,7 +15,19 @@
 
                 <BandCard name = "Marshalls of Victory" image = "/assets/img/bands/band1.jpg" genre = "Hard Rock" members = "Patryk Sławiński, Jan Krawczyk, Antoni Otwinowski, Alex Nemertsalov" socials = "https://marshallsofvictory.com/#/links/">
                     <template #shortDesc>
+                        <Translate pl="Organizator, Klasyczny Rock" en="Event Organizer, Classic Rock" />
+                    </template>
+                    <!-- <template #longDesc>
                         <Translate pl="Organizator" en="Event Organizer" />
+                    </template> -->
+                </BandCard>
+
+                <BandCard name = "DeWaiters" image = "/assets/img/bands/dewaiters.jpg" members = "Jakub Tutaj, Grzegorz Jakieła, Witold Fudała" socials = "https://www.instagram.com/dewaiters/">
+                    <template #genre>
+                        <Translate pl="Instrumentalny Rock Progresywny" en="Instrumental Progressive Rock" />
+                    </template>
+                    <template #shortDesc>
+                        <Translate pl="Instrumentalny Rock Progresywny" en="Instrumental Progressive Rock" />
                     </template>
                     <!-- <template #longDesc>
                         <Translate pl="Organizator" en="Event Organizer" />
