@@ -14,7 +14,7 @@ import { getAI } from '@/assets/js/store';
                 <div class="portfolio-hover">
                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                 </div>
-                <img class="img-fluid" :src="image" alt="..." />
+                <img class="img-fluid fittt" :src="image" alt="..." />
             </a>
             <div class="portfolio-caption">
                 <div class="portfolio-caption-heading">{{ name }}</div>
@@ -44,6 +44,7 @@ import { getAI } from '@/assets/js/store';
                                         <li>
                                             <strong><Translate pl="Gatunek:" en="Genre:" /></strong>
                                             {{ genre }}
+                                            <slot name = "genre"></slot>
                                         </li>
                                         <li>
                                             <strong><a style = "color: black" :href="socials">Social Media</a></strong>
@@ -87,7 +88,7 @@ export default {
         },
         genre: {
             type: String,
-            default: "Rock"
+            default: ""
         },
         socials: {
             type: String,
@@ -103,6 +104,11 @@ export default {
 </script>
 
 <style scoped>
+
+.fittt {
+    object-fit: cover;
+    aspect-ratio: 4 / 3 !important;
+}
 
 .text-size-adjusted-name{
     font-size: 200% !important;
