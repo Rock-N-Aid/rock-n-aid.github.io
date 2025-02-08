@@ -13,21 +13,36 @@
             </div>
             <div class="row">
 
-                <BandCard name = "Marshalls of Victory" image = "/assets/img/bands/band1.jpg" genre = "Hard Rock" members = "Patryk Sławiński, Jan Krawczyk, Antoni Otwinowski, Alex Nemertsalov" socials = "https://marshallsofvictory.com/#/links/">
+                <BandCard name = "Marshalls of Victory" image = "/assets/img/bands/band1.jpg" members = "Patryk Sławiński, Jan Krawczyk, Antoni Otwinowski, Alex Nemertsalov" socials = "https://marshallsofvictory.com/#/links/">
                     <template #shortDesc>
                         <Translate pl="Organizator, Klasyczny Rock" en="Event Organizer, Classic Rock" />
+                    </template>
+                    <template #genre>
+                        <Translate pl="Klasyczny Rock" en="Classic Rock" />
                     </template>
                     <!-- <template #longDesc>
                         <Translate pl="Organizator" en="Event Organizer" />
                     </template> -->
                 </BandCard>
 
-                <BandCard name = "DeWaiters" image = "/assets/img/bands/dewaiters.jpg" members = "Jakub Tutaj, Grzegorz Jakieła, Witold Fudała" socials = "https://www.instagram.com/dewaiters/">
+                <BandCard name = "DeWaiters" image = "/assets/img/bands/dewaiters.jpg" members = "Jakub Tutaj, Grzegorz Jakieła, Witold Fudała" socials = "https://www.facebook.com/dewaiters/">
                     <template #genre>
                         <Translate pl="Instrumentalny Rock Progresywny" en="Instrumental Progressive Rock" />
                     </template>
                     <template #shortDesc>
                         <Translate pl="Instrumentalny Rock Progresywny" en="Instrumental Progressive Rock" />
+                    </template>
+                    <!-- <template #longDesc>
+                        <Translate pl="Organizator" en="Event Organizer" />
+                    </template> -->
+                </BandCard>
+
+                <BandCard name = "Devise" image = "/assets/img/bands/devise.jfif" members = "" socials = "https://www.facebook.com/people/Devise-Band/61556257292872/?_rdr">
+                    <template #genre>
+                        Heavy Metal
+                    </template>
+                    <template #shortDesc>
+                        Heavy Metal
                     </template>
                     <!-- <template #longDesc>
                         <Translate pl="Organizator" en="Event Organizer" />

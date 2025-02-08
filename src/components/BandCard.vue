@@ -50,8 +50,8 @@ import { getAI } from '@/assets/js/store';
                                             <strong><a style = "color: black" :href="socials">Social Media</a></strong>
                                         </li>
                                         <li>
-                                            <strong><Translate pl="Członkowie:" en="Members:" /></strong>
-                                            {{ members }}
+                                            <!-- <strong><Translate pl="Członkowie:" en="Members:" /></strong> -->
+                                            <!-- {{ members }} -->
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase text-size-adjusted" data-bs-dismiss="modal" type="button">
