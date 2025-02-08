@@ -2,11 +2,11 @@
     --col-main: #000000;
     --col-main2: #383838;
     --col-nav: #303030;
-    --col-accent: #bd0606;
+    --col-accent: rgb(179,34,34);
     
-    --col-accent-overlay: #bd0606CC;
-    --col-accent-dark: #8b0000;
-    --col-accent-darker: #700000;
+    --col-accent-overlay: rgba(149,24,24, 0.8);
+    --col-accent-dark: #8d1f1f;
+    --col-accent-darker: #751010;
     --col-text: #d2d2d2;
     --col-text2: #ffffff;
     --col-text3: #bebebe;

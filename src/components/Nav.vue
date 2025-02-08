@@ -7,7 +7,14 @@
 <template>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <RouterLink class="navbar-brand" to="/#page-top"><img src="/assets/img/rocknaid/tekst.png" style="height: 70px;" alt="..." /></RouterLink>
+                <RouterLink class="navbar-brand" to="/#page-top">
+                    <!-- <img src="/assets/img/rocknaid/tekst.png" style="height: 70px;" alt="..." /> -->
+                     <div style = "display: inline-block; height: 80px; padding: 0">
+                        <img src="/assets/img/new/text/rna-text-red.png" style="margin: 0; height: 105px; filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 1)); transform: translateY(-10px);" alt="..." />
+                     </div>
+                    
+                    
+                </RouterLink>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
