@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import EventHandler from '@/assets/EventHandler';
 
 const router = createRouter({
   // history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,13 +22,29 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/SocialsView.vue')
+    },
+    {
+      path: '/partners',
+      name: 'partners',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/PartnersView.vue')
+    },
+    {
+      path: '/statistics',
+      name: 'statistics',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/StatisticsView.vue')
     }
   ]
 })
 
 router.afterEach((to, from) => {
   console.log('Navigated to:', to.path);
-  // EventHandler.emit('routeChanged', { from: from.path, to: to.path });
+  EventHandler.emit('routeChanged', { from: from.path, to: to.path });
   function handleHash() {
     let hash = window.location.hash;
 

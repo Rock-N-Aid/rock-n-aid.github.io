@@ -1,0 +1,156 @@
+<script setup>
+
+import Translate from '@/components/utils/Translate.vue';
+import { getAI } from '@/assets/js/store';
+
+</script>
+
+<template>
+
+    <div class="col-lg-4 col-sm-6 mb-4">
+        <!-- Portfolio item 1-->
+        <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" :href="'#portfolioModal' + contentID">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid fittt partner" :src="image" alt="..." />
+            </a>
+
+        </div>
+    </div>
+
+    <!-- PopUp -->
+
+    <div class="portfolio-modal modal fade" :id="'portfolioModal' + contentID" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg" alt="Close modal" /></div> -->
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase text-size-adjusted-name">{{ name }}</h2>
+                                    <p class="item-intro text-muted"><slot name = "shortDesc"></slot></p>
+                                    <img class="img-fluid d-block mx-auto" :src="image" alt="..." />
+                                    <p><slot name = "longDesc"></slot></p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong><Translate pl="Gatunek:" en="Genre:" /></strong>
+                                            {{ genre }}
+                                            <slot name = "genre"></slot>
+                                        </li>
+                                        <li>
+                                            <strong><a style = "color: black" :href="socials">Social Media</a></strong>
+                                        </li>
+                                        <li>
+                                            <!-- <strong><Translate pl="Członkowie:" en="Members:" /></strong> -->
+                                            <!-- {{ members }} -->
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase text-size-adjusted" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        <Translate pl="ZAMKNIJ" en="CLOSE" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+</template>
+
+<script>
+
+export default {
+    data() {
+        return {
+            contentID: getAI()
+        }
+    },
+
+    props: {
+        name: {
+            type: String,
+            default: "jakiś zespół"
+        },
+        image: {
+            type: String,
+            default: "/assets/img/bands/template.jpg"
+        },
+        genre: {
+            type: String,
+            default: ""
+        },
+        socials: {
+            type: String,
+            default: ""
+        },
+        members: {
+            type: String,
+            default: ""
+        }
+    }
+}
+
+</script>
+
+<style scoped>
+
+.fittt {
+    object-fit: cover;
+    aspect-ratio: 4 / 3 !important;
+}
+
+.text-size-adjusted-name{
+    font-size: 200% !important;
+}
+.text-size-adjusted {
+    font-size: 90% !important;
+}
+li {
+    font-size: 100% !important;
+}
+@media (max-width: 1024px) {
+    .text-size-adjusted-name{
+        font-size: 130% !important;
+    }
+    .text-size-adjusted {
+        font-size: 75% !important;
+    }
+
+    li {
+        font-size: 80% !important;
+    }
+}
+
+
+div.modal-content {
+    padding: 20px !important;
+    width: 60%;
+    margin: auto;
+
+}
+
+@media (max-width: 1999px) {
+    div.modal-content {
+        padding: 20px !important;
+        width: 90%;
+        margin: auto;
+
+    }
+}
+
+/* div.modal-content > .container {
+    margin: 0 !important;
+} */
+ .partner {
+    border: 2px solid rgb(42, 42, 42);
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1))
+ }
+
+</style>
