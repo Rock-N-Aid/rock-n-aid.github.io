@@ -1,10 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import './assets/flag-icons-master/flag-icons.min.css'
+import LinkVisitCounter from './components/statistics/LinkVisitCounter.vue';
 </script>
 
 <template>
+  
   <RouterView />
+  <LinkVisitCounter />
 </template>
 
 <script>

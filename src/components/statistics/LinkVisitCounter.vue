@@ -34,8 +34,9 @@
         },
         mounted() {
 
-
+            console.log("notifier mounted")
             EventHandler.on('routeChanged', async () => {
+                console.log("routeChanged :))))")
                 await this.setIP()
                 let code = LinkGetManager.getParameter("code");
                 if (code != undefined) {

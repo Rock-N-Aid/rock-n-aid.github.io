@@ -55,7 +55,7 @@ export default {
   props: {
     action: {
         type: String,
-        default: "marshallsofvictory.com/assets/php/utilsRNA/linkStats.php"
+        default: "https://marshallsofvictory.com/assets/php/utilsRNA/linkStats.php"
     },
     code: {
         type: String,
