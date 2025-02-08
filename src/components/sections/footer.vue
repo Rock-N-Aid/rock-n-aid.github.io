@@ -8,7 +8,7 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">Copyright &copy; Rock N' Aid 2024</div>
+                <div class="col-lg-4 text-lg-start">Copyright &copy; Rock N' Aid 2025</div>
                 <span class="col-lg-7" style = "text-align: center;">
                     <Links />
                 </span>
