@@ -62,6 +62,9 @@
     import PartnerCard from '@/components/PartnerCard.vue';
     import ZZT from '@/components/logos/zzt.vue';
     import RNA from '@/components/logos/rna.vue';
+    import Malik from '../logos/malik.vue';
+    import TK from '../logos/tk.vue';
+    import SS from '../logos/ss.vue'
 </script>
 
 <template>
@@ -76,30 +79,30 @@
 
                 <div class="row align-items-center">
                     <div class="col-md-3 col-sm-6 my-3">
-                        <RNA />
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
                         <ZZT />
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <RNA />
+                        <TK />
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <ZZT />
+                        <SS />
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <Malik />
                     </div>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-md-3 col-sm-6 my-3">
+                        <Malik />
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <SS />
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <TK />
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
                         <ZZT />
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <RNA />
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <ZZT />
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <RNA />
                     </div>
 
                 </div>

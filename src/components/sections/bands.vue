@@ -49,6 +49,18 @@
                     </template> -->
                 </BandCard>
 
+                <BandCard name = "Teatr Szachrajskiej Piguły" image = "/assets/img/bands/teatr.jpg" members = "" socials = "https://www.facebook.com/teatrszachrajskiejpiguly/">
+                    <template #genre>
+                        <Translate pl="Rock Psychodeliczny" en="Psychodelic Rock" />
+                    </template>
+                    <template #shortDesc>
+                        <Translate pl="Rock Psychodeliczny" en="Psychodelic Rock" />
+                    </template>
+                    <!-- <template #longDesc>
+                        <Translate pl="Organizator" en="Event Organizer" />
+                    </template> -->
+                </BandCard>
+
             </div>
         </div>
     </section>

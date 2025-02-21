@@ -7,7 +7,7 @@ import { getAI } from '@/assets/js/store';
 
 <template>
 
-    <div class="col-lg-4 col-sm-6 mb-4">
+    <div class="col-lg-6 col-sm-12 mb-4">
         <!-- Portfolio item 1-->
         <div class="portfolio-item">
             <a class="portfolio-link" data-bs-toggle="modal" :href="'#portfolioModal' + contentID">
@@ -19,7 +19,7 @@ import { getAI } from '@/assets/js/store';
             <div class="portfolio-caption">
                 <div class="portfolio-caption-heading">{{ name }}</div>
                 <div class="portfolio-caption-subheading text-muted">
-                    <slot name = "shortDesc"></slot>
+                    <slot name = "shortDesc"></slot> 
                 </div>
             </div>
         </div>

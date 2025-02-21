@@ -110,8 +110,8 @@
         <div class="col-12 col-md-4">
           <div class="card border border-dark">
             <div class="card-body p-5">
-              <h3 class="display-5 fw-bold text-primary text-center mb-2">5</h3>
-              <p class="fw-bold text-center m-0"><Translate pl="ZESPOŁÓW" en="BANDS" /></p>
+              <h3 class="display-5 fw-bold text-primary text-center mb-2">4</h3>
+              <p class="fw-bold text-center m-0"><Translate pl="ZESPOŁY" en="BANDS" /></p>
             </div>
           </div>
         </div>

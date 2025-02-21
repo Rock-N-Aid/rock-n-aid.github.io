@@ -7,15 +7,15 @@
 
     <header class="masthead">
         <span id = "backIMG"></span>
-        <div class="container d-flex flex-column justify-content-center align-items-center text-center hcon">
+        <div class="container d-flex flex-column justify-content-center align-items-center text-center">
             <h1 style="font-size: 2.3vw;" class="p-5">
-                <Translate pl = "ROCK N' AID - Linki" en = "ROCK N' AID - Links" />
+                <!-- <Translate pl = "ROCK N' AID - Linki" en = "ROCK N' AID - Links" /> -->
             </h1>
             <!-- <h1 style="font-size: 4.5vw;">
                 
             </h1> -->
 
-                <div class="col-12 col-md-4" style = "min-width: 30vw">
+                <div class="col-3 col-md-3" style = "min-width: 20rem">
                     <div class="card border border-dark linkcard">
                         <div class="card-body p-5">
                             <Links />

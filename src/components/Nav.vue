@@ -10,7 +10,7 @@
                 <RouterLink class="navbar-brand" to="/#page-top">
                     <!-- <img src="/assets/img/rocknaid/tekst.png" style="height: 70px;" alt="..." /> -->
                      <div style = "display: inline-block; height: 80px; padding: 0">
-                        <img src="/assets/img/new/text/rna-text-white.png" style="margin: 0; height: 105px; filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 1)); transform: translateY(-10px);" alt="..." />
+                        <img src="/assets/img/new/text/rna-text-white.png" style="margin: 0; height: 90px; filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 1)); transform: translateY(-10px); scale: 1.17" alt="..." />
                      </div>
                     
                     
@@ -21,12 +21,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><RouterLink class="nav-link" to="/#services"><Translate pl="CELE" en="GOALS"/></RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="/#portfolio"><Translate pl="ZESPOŁY" en="BANDS"/></RouterLink></li>
                         <li class="nav-item"><RouterLink class="nav-link" to="/#about"><Translate pl="O PROJEKCIE" en="ABOUT"/></RouterLink></li>
-                        <li class="nav-item"><RouterLink class="nav-link" to="/#team"><Translate pl="ZAŁOŻYCIELE" en="FOUNDERS"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="/#services"><Translate pl="CELE" en="GOALS"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="/partners"><Translate pl="PARTNERZY" en="PARTNERS"/></RouterLink></li>
+                        <li class="nav-item"><RouterLink class="nav-link" to="/#portfolio"><Translate pl="ZESPOŁY" en="BANDS"/></RouterLink></li>
+                        <!-- <li class="nav-item"><RouterLink class="nav-link" to="/#team"><Translate pl="ZAŁOŻYCIELE" en="FOUNDERS"/></RouterLink></li> -->
                         <li class="nav-item"><RouterLink class="nav-link" to="/#contact"><Translate pl="KONTAKT" en="CONTACT"/></RouterLink></li>
                         <li class="nav-item"><RouterLink class="nav-link" to="/socials">SOCIAL MEDIA</RouterLink></li>
+                        
                     </ul>
                     <TranslatorLangSelector />
                     
