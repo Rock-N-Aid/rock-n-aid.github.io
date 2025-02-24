@@ -7,7 +7,7 @@
     <header class="masthead">
         
         <div class="container">
-            <div class="masthead-subheading"><Translate pl = "OFICJALNA STRONA KONCERTU" en = "OFFICIAL EVENT SITE" /></div>
+            <div class="masthead-subheading"><Translate pl = "KONCERT CHARYTATYWNY" en = "CHARITY CONCERT" /></div>
             <h1 style="font-size: 4.5vw;">
                 ROCK N' AID UNDERGROUND
             </h1>
@@ -30,6 +30,7 @@
                     <p class="fs-5"><Translate pl="SEKUND" en="SECONDS"/></p>
                 </div>
             </div>
+            <div class="masthead-subheading" style = "font-size: 150%;"><Translate pl = "15 marca 2025, ul. Ułanów 3 w Krakowie" en = "March 15th 2025, Ułanów 3 st. Cracow, Poland" /></div>
 
             <div class="btn-group mb-4"> 
                 <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
