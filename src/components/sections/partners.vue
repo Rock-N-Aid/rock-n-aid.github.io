@@ -64,7 +64,8 @@
     import RNA from '@/components/logos/rna.vue';
     import Malik from '../logos/malik.vue';
     import TK from '../logos/tk.vue';
-    import SS from '../logos/ss.vue'
+    import SS from '../logos/ss.vue';
+    import SOS from '../logos/sos.vue';
 </script>
 
 <template>
@@ -79,7 +80,7 @@
 
                 <div class="row align-items-center">
                     <div class="col-md-3 col-sm-6 my-3">
-                        <ZZT />
+                        <SOS style = "height: 5rem;"/>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
                         <TK />
@@ -92,15 +93,15 @@
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3">
+                    <!-- <div class="col-md-3 col-sm-6 my-3">
                         <Malik />
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
+                    </div> -->
+                    <!-- <div class="col-md-3 col-sm-6 my-3">
                         <SS />
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
                         <TK />
-                    </div>
+                    </div> -->
                     <div class="col-md-3 col-sm-6 my-3">
                         <ZZT />
                     </div>
