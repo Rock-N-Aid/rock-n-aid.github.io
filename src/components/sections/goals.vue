@@ -1,5 +1,6 @@
 <script setup>
     import Translate from '@/components/utils/Translate.vue';
+    import SOS from '../logos/sos.vue';
 </script>
 
 <template>
@@ -17,7 +18,9 @@
                             <i class="fas fa-handshake fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3"><Translate pl="POMOC" en="HELP" /></h4>
-                        <p class="text-muted"><Translate pl="Celem Rock N' Aid Underground jest wsparcie charytatywne, poprzez organizację koncertu, którego zyski zostaną przeznaczone na pomoc fundacji na rzecz dzieci osieroconych/zagrożonych utratą opieki rodzicielskiej." en = "The purpose of Rock N' Aid Underground is to support charity through the organization of the concert, the proceeds of which will be donated to a foundation for orphaned children." /></p>
+                        <p class="text-muted"><Translate pl="Celem Rock N' Aid Underground jest wsparcie charytatywne, poprzez organizację koncertu, którego zyski zostaną przeznaczone na pomoc Stwoarzyszenia SOS Wioski Dziecięce." en = "The goal of Rock N' Aid Underground is to provide charitable support by organizing a concert, the proceeds of which will be donated to help the SOS Wioski Dziecięce Association."/></p>
+                            <SOS style = "height: 4rem;"></SOS>
+                        
                     </div>
                     
                     <div class="col-md-4">
@@ -41,3 +44,9 @@
         </section>
 
 </template>
+
+<style scoped>
+a, img {
+    height: inherit;
+}
+</style>

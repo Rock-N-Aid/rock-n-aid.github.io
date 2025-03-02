@@ -1,5 +1,5 @@
 <script setup>
-    import { LinkGetManager } from '@/assets/Utils.js';
+    import { LinkGetManager, Cookie } from '@/assets/Utils.js';
     import EventHandler from '@/assets/EventHandler';
     import PHPVisitNotifier from '@/components/statistics/PHPVisitNotifier.vue'
 </script>
@@ -39,6 +39,13 @@
                 console.log("routeChanged :))))")
                 await this.setIP()
                 let code = LinkGetManager.getParameter("code");
+                // alert("cooldown: " + Cookie.Exists("codeCooldown"))
+                // alert("code: " + code)
+                if (!Cookie.Exists("codeCooldown") && code == undefined) {
+                    // alert("Code changed to  #")
+                    code = "#";
+                    Cookie.Set("codeCooldown", 1, 60)
+                }
                 if (code != undefined) {
                     let loc = window.location.toString();
                     console.warn(loc)

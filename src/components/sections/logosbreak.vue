@@ -24,9 +24,13 @@
                         <ZZT />
                     </div>
 
-            </div>
+                </div>
 
         </span>
+            <div style = "text-align: center; display: flex; justify-content: center;">
+                <RouterLink to="/partners"><button class = "btn btn-primary"><Translate pl="Więcej" en="More"/></button></RouterLink>
+                
+            </div>
         </div>
     </div>
 
@@ -36,6 +40,17 @@
 
 .greyed-out{
     filter: grayscale(0.2);
+}
+
+hr {
+    display: inline-block;
+    width: 5rem;
+    margin: 1rem 10px;
+    height: 2px;
+    border-width: 0;
+    background-color: #000000 !important;
+    color: #000000 !important;
+
 }
 
 </style>
