@@ -20,6 +20,7 @@
                         <h4 class="my-3"><Translate pl="POMOC" en="HELP" /></h4>
                         <p class="text-muted"><Translate pl="Celem Rock N' Aid Underground jest wsparcie charytatywne, poprzez organizację koncertu, którego zyski zostaną przeznaczone na pomoc Stwoarzyszenia SOS Wioski Dziecięce." en = "The goal of Rock N' Aid Underground is to provide charitable support by organizing a concert, the proceeds of which will be donated to help the SOS Wioski Dziecięce Association."/></p>
                             <SOS style = "height: 4rem;"></SOS>
+                            <br>
                         
                     </div>
                     
