@@ -59,7 +59,12 @@
                     <Translate pl="Uniwersalnie (.ics)" en="Universally (.ics)" /></a>
                 </div>
             </div>
-            <RouterLink class="nav-link" target = "_blank"><a class="btn btn-primary btn-xl text-uppercase mt-4" href = "https://fb.me/e/2Nxa8uO9R"><Translate pl="WIĘCEJ" en = "MORE" /></a></RouterLink>
+            
+            <div>
+                <RouterLink style = "display: inline-block; margin-right: 0.5rem;" class="nav-link" target = "_blank"><a class="btn btn-primary btn-xl text-uppercase mt-4" href = "https://fb.me/e/2Nxa8uO9R"><Translate pl="WIĘCEJ" en = "MORE" /></a></RouterLink>
+
+                <RouterLink style = "display: inline-block; margin-left: 0.5rem;" class="nav-link" target = "_blank"><a class="btn btn-primary btn-xl text-uppercase mt-4" href = "https://fb.me/e/2Nxa8uO9R"><Translate pl="Link do zbiórki" en = "fund-raiser page" /></a></RouterLink>
+            </div>
         </div>
     </header>
 
